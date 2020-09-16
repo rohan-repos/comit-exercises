@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create User</h1>
+    <br/>
+    <form action="create-user.html" method="get">
+        <div><label for="email">Email-ID</label>
+        <input type="email" name="email" placeholder="Enter email ID" id="email" required/></div>
+        <div><label for="username">Username</label>
+        <input type="text" name="username" placeholder="Enter username" id="username" size="30" maxlength="12"/></div>
+        <div><label for="password">Password</label>
+        <input type="password" name="password" placeholder="Enter username" id="password" size="30" maxlength="8" required/></div>
+        <div><label for="bio">User Detail</label>
+        <textarea name="bio" id="bio" placeholder="give a brief description of this user"></textarea></div>
+        <fieldset>
+            <legend>Intrests</legend>
+        <div>
+            <label for="superhero">Select your favourite superhero</label>
+            <input type="radio" name="superhero" id="superhero" value="Superman"/>Superman
+            <input type="radio" name="superhero" id="superhero" value="Batman"/>Batman
+            <input type="radio" name="superhero" id="superhero" value="Wonder Woman" checked/>Wonder Woman
+            <input type="radio" name="superhero" id="superhero" value="Flash"/>Flash
+            <input type="radio" name="superhero" id="superhero" value="Thor"/>Thor
+            <input type="radio" name="superhero" id="superhero" value="Hulk"/>Hulk
+        </div>
+        <div>
+            <label for="videogame">Select your Video Games</label>
+            <input type="checkbox" id="videogame" name="videogame" />FIFA
+            <input type="checkbox" id="videogame" name="videogame" />NHL
+            <input type="checkbox" id="videogame" name="videogame" />Resident Evil
+            <input type="checkbox" id="videogame" name="videogame" />Uncharted
+        </div>
+        </fieldset>
+        <input type="hidden" name="userid" value="2300">
+        <input type="submit" value="Create User">
+    </form>
+</body>
+</html>
