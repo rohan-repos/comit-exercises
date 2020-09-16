@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        ul li:hover:nth-child(2) {
+            background: red;
+            color: white;
+        }
+        ul li:hover:first-child {
+            font-size: 32px;
+        }
+        ul li:hover:nth-child(3n){
+            color:green;
+        }
+        ul li:hover:last-child{
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <h1>Funky List Items</h1>
+    <ul>
+<li>Pig</li>  
+<li>Goat</li>   
+<li>Duck</li>  
+<li>Cow</li> 
+<li>Chicken</li>  
+<li>Sheep</li> 
+<li>Horse</li> 
+<li>Shark</li> 
+<li>Whale</li> 
+<li>Dolphin</li> 
+    </ul>
+</body>
+</html>
