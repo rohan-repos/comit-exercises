@@ -1,4 +1,4 @@
 # comit-exercises
 
 Name:Rohan Nagendra
-This is for the comit course
+The exercises for the comit course
