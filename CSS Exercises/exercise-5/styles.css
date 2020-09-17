@@ -1,0 +1,14 @@
+
+ul li:hover:nth-child(2) {
+    background: red;
+    color: white;
+}
+ul li:hover:first-child {
+    font-size: 32px;
+}
+ul li:hover:nth-child(3n){
+    color:green;
+}
+ul li:hover:last-child{
+    text-transform: uppercase;
+}
