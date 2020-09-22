@@ -1,3 +1,4 @@
+"use strict"
 console.log("Age above declaration: "+randomValue+" Type: "+typeof(randomValue));
 var randomValue=2342;
 console.log("Age after declaration: "+randomValue+" Type: "+typeof(randomValue));
@@ -7,7 +8,7 @@ let courseCompleted=false
 let finalScore=null;
 let winningNumbers;
 console.log("Age: "+age+" Type: "+typeof(age));
-strNum = String(age);//string to number without declaring variable sage
+let strNum = String(age);//string to number
 console.log("StrNum: "+strNum+" Type: "+typeof(strNum));
 let strNumSecond= "20"/"10"; //String to number
 console.log("strNumSecond: "+strNumSecond+" Type: "+typeof(strNumSecond));
