@@ -1,0 +1,11 @@
+const monthOfBirth="Jan";
+        const firstName="Logan";
+        const lastName="James";
+        let city,age,nextCity;
+        city="London";
+        age=30;
+        nextCity="London";
+        console.log("Age: "+age);
+        console.log("Name:"+firstName+" "+lastName);
+        console.log("Month of birth: "+monthOfBirth);
+        console.log("This is working(testing)");

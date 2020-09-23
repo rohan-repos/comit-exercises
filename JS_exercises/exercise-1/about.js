@@ -1,0 +1,1 @@
+alert("Alert inside external about.js file");
