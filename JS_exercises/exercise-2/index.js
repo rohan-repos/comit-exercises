@@ -7,5 +7,6 @@ const monthOfBirth="Jan";
         nextCity="London";
         console.log("Age: "+age);
         console.log("Name:"+firstName+" "+lastName);
+        console.log(`Name: ${firstName} ${lastName}`);
         console.log("Month of birth: "+monthOfBirth);
         console.log("This is working(testing)");
