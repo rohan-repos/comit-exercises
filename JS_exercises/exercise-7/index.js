@@ -79,6 +79,19 @@ do{
 }while(start<=100);
 
 // Produce the following output
+// *
+// **
+// ***
+// ****
+// *****
+// ******
+// *******
+// ********
+// *********
+// **********
+// ***********
+// ************
+// *************
 console.log("step pattern using for loop")
 for (let outer = 0; outer < 13; outer++) {
     for(let inner=0;inner<=outer;inner++){
