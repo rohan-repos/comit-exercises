@@ -18,4 +18,5 @@ console.log("First Name: "+firstName+" Type: "+typeof(firstName));
 console.log("courseCompleted: "+courseCompleted+" Type: "+typeof(courseCompleted));
 console.log("Final Score: "+finalScore+" Type: "+typeof(finalScore));
 console.log("Winning Numbers; "+winningNumbers+" Type: "+typeof(winningNumbers));
-let result = prompt("Enter some number here", [20]);
+let result = prompt("Enter some number here", 20);
+console.log("Result:"+result);
