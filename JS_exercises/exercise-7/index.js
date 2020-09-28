@@ -92,12 +92,14 @@ do{
 // ***********
 // ************
 // *************
+let stars="";
 console.log("step pattern using for loop")
 for (let outer = 0; outer < 13; outer++) {
+    stars="";
     for(let inner=0;inner<=outer;inner++){
-        console.log("*");
+        stars+="*";
     }
-    console.log("\n");
+    console.log(stars);
 }
 
 let inner=0,outer=0;
@@ -105,24 +107,26 @@ console.log("step pattern using while loop");
 while(outer<13)
 {
     inner=0;
+    stars="";
     while(inner<=outer)
     {
-        console.log("*");
+        stars+="*";
         inner++;
     }
-    console.log("\n");
+    console.log(stars);
     outer++;
 }
 
 inner=0;outer=0;
 console.log("step pattern using do while loop");
 do{
+    stars="";
     inner=0;
     do
     {
-        console.log("*");
+        stars+="*";
         inner++;
     }while(inner<=outer);
-    console.log("\n");
+    console.log(stars);
     outer++;
 }while(outer<13);
