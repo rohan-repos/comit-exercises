@@ -38,10 +38,10 @@ function fibonacci(maxValue){
     if(maxValue==1){
         console.log(first);
     }
-    else if(maxValue>=2){
+    else if(maxValue>1){
         console.log(first);
         console.log(second);
-    while(maxValue>=3){
+    while(maxValue>2){
      nextVal=first+second;
      console.log(nextVal);
      first=second;
@@ -63,6 +63,6 @@ let user1={name:"Abc",age:18,phone:123456789,postalCode:"PLK646",married:Boolean
 //showUser(user1);
 showUser("Abc",18,123456789,"123 street","PLK646",Boolean(0));
 alert(fibonacciRecur(5));
-fibonacci(3);
+fibonacci(10);
 showName(()=>"Test Name");
 showName(()=>"Another Name");
