@@ -21,3 +21,18 @@ console.log("\nUsing for..of loop");
 for(let heroName of superHeroes){
     console.log(heroName);
 }
+
+function map(arr, func) {
+    let resultArray= new Array();
+    for(let item of arr){
+        let itemToStore=func(item);
+        resultArray.push(itemToStore);
+    }
+    return resultArray;
+}
+  
+  const result = map([1, 2, 3], function(item) {
+    return item * 2;
+  });
+  
+  console.log(result); // [2, 4, 6]
